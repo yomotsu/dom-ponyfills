@@ -1,8 +1,8 @@
 import typescript from 'rollup-plugin-typescript2';
 import pkg from './package.json';
 const license = `/*!
- * tiny-dom-utils.js
- * https://github.com/yomotsu/dom-utils
+ * dom-ponyfills.js
+ * https://github.com/yomotsu/dom-ponyfills
  * (c) 2018 @yomotsu
  * Released under the MIT License.
  */`;
@@ -13,7 +13,7 @@ export default {
 		{
 			format: 'umd',
 			file: pkg.main,
-			name: 'tinyDomUtils',
+			name: 'domPonyfills',
 			banner: license,
 			indent: '\t',
 		},

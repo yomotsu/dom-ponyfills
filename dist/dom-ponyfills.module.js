@@ -1,6 +1,6 @@
 /*!
- * tiny-dom-utils.js
- * https://github.com/yomotsu/dom-utils
+ * dom-ponyfills.js
+ * https://github.com/yomotsu/dom-ponyfills
  * (c) 2018 @yomotsu
  * Released under the MIT License.
  */

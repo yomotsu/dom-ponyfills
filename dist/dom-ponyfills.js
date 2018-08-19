@@ -1,13 +1,13 @@
 /*!
- * tiny-dom-utils.js
- * https://github.com/yomotsu/dom-utils
+ * dom-ponyfills.js
+ * https://github.com/yomotsu/dom-ponyfills
  * (c) 2018 @yomotsu
  * Released under the MIT License.
  */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(factory((global.tinyDomUtils = {})));
+	(factory((global.domPonyfills = {})));
 }(this, (function (exports) { 'use strict';
 
 	function matches(el, selector) {
