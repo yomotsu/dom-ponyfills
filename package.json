@@ -1,0 +1,23 @@
+{
+  "name": "tiny-dom-utils",
+  "version": "0.1.0",
+  "author": "Yomotsu",
+  "license": "MIT",
+  "repository": "yomotsu/tiny-dom-utils",
+  "jsnext:main": "dist/tiny-dom-utils.module.js",
+  "module": "dist/tiny-dom-utils.module.js",
+  "main": "dist/tiny-dom-utils.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "rollup-watch": "^4.3.1",
+    "typescript": "^3.0.1",
+    "uglify-js": "^3.4.7"
+  },
+  "scripts": {
+    "dev": "npm run watch",
+    "watch": "rollup --config --watch",
+    "build": "rollup --config && uglifyjs dist/tiny-dom-utils.js --comments '/^/*!/' > dist/tiny-dom-utils.min.js"
+  }
+}
