@@ -1,6 +1,6 @@
 # dom-ponyfills
 
-DOM polyfills for closest, matches
+DOM [ponyfills](https://github.com/sindresorhus/ponyfill) for closest, matches with d.ts.
 
 [![Latest NPM release](https://img.shields.io/npm/v/dom-ponyfills.svg)](https://www.npmjs.com/package/dom-ponyfills)
 ![MIT License](https://img.shields.io/npm/l/dom-ponyfills.svg)
